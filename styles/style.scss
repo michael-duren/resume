@@ -40,16 +40,6 @@ $gray-text: #848484;
   .nav-open {
     transform: translateX(-100%);
   }
-  .toggle .line1 {
-    transform: rotateZ(45deg) translateY(300%);
-    background-color: white;
-  }
-  .toggle .line2 {
-    opacity: 0;
-  }
-  .toggle .line3 {
-    transform: rotateZ(-45deg) translateY(-300%);
-  }
 
   .burger {
     position: relative;
@@ -65,5 +55,6 @@ $gray-text: #848484;
     margin: 0.5rem 0rem;
     display: block;
     transition: all 0.5s ease;
+    z-index: 1;
   }
 }
