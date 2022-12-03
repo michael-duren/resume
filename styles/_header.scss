@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  padding: 2rem;
+  margin: 10rem 2rem 0 2rem;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 5rem;
+  border: solid black 1px;
+}
+
+nav {
+  min-height: 10vh;
+
+  ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 40rem;
+
+    li {
+      margin: 10rem;
+      font-family: 'Cedarville Cursive', cursive;
+      font-size: $text;
+    }
+    li :hover {
+      color: $gray-text;
+      border: black solid 1px;
+      padding: 1rem 2rem;
+    }
+  }
+}

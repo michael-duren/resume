@@ -1,9 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+$header1: 2.5rem;
+$header2: 3rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2rem;
+$background-color: #154353;
+$gray-text: #848484;
 
-html {
-  font-size: 62.5%;
-}
+// Imports
+@import 'global';
+@import 'header';
+@import 'home';
+@import 'experience-skills';
+@import 'contact';

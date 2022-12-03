@@ -6,4 +6,153 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  /* reference variable */
+  font-size: 2.5rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  margin: 10rem 2rem 0 2rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 5rem;
+  border: solid black 1px;
+}
+
+nav {
+  min-height: 10vh;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex: 1 1 40rem;
+}
+nav ul li {
+  margin: 10rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2rem;
+}
+nav ul li :hover {
+  color: #848484;
+  border: black solid 1px;
+  padding: 1rem 2rem;
+}
+
+.intro {
+  margin: 0 10rem;
+}
+.intro h2 {
+  padding: 3rem;
+}
+.intro p {
+  padding: 2rem;
+  margin: 5rem 15rem;
+  font-size: 2rem;
+}
+.intro .par-left {
+  text-align: left;
+}
+.intro .par-right {
+  text-align: right;
+}
+.intro .par-left-two {
+  margin: 0 20rem;
+}
+
+.experience {
+  margin: 0 3rem;
+}
+.experience h2 {
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.experience h3 {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Cedarville Cursive", cursive;
+}
+.experience ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  list-style: circle;
+  margin: 0 20vw;
+}
+.experience li {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.skills {
+  margin: 0 3rem;
+}
+.skills h2 {
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.skills .wrapper {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills .skills-container {
+  margin-right: 20rem;
+}
+.skills ul {
+  margin: 2rem;
+}
+.skills h3 {
+  text-align: left;
+  padding: 2rem;
+  font-family: "Cedarville Cursive", cursive;
+}
+.skills li {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
