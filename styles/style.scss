@@ -5,6 +5,7 @@ $header4: 2rem;
 $text: 2rem;
 $background-color: #154353;
 $gray-text: #848484;
+$main-font: 'Merriweather', serif;
 
 // Imports
 @import 'global';
@@ -56,5 +57,14 @@ $gray-text: #848484;
     display: block;
     transition: all 0.5s ease;
     z-index: 1;
+  }
+
+  .self {
+    display: none;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
   }
 }

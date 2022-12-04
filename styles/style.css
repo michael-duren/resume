@@ -23,6 +23,7 @@ label,
 input,
 p {
   font-size: 2rem;
+  font-family: "Merriweather", serif;
 }
 
 h2 {
@@ -84,9 +85,9 @@ nav ul li :hover {
   padding: 3rem;
 }
 .intro p {
-  padding: 2rem;
-  margin: 5rem 15rem;
+  padding: 3rem;
   font-size: 2rem;
+  width: 25vw;
 }
 .intro .par-left {
   text-align: left;
@@ -96,6 +97,20 @@ nav ul li :hover {
 }
 .intro .par-left-two {
   margin: 0 20rem;
+}
+.intro .intro-container {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.intro .self {
+  margin: 3rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .experience {
@@ -196,5 +211,12 @@ p {
     display: block;
     transition: all 0.5s ease;
     z-index: 1;
+  }
+  .self {
+    display: none;
+  }
+  .intro-container {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
