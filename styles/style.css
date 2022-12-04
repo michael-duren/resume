@@ -49,6 +49,28 @@ a {
   color: black;
 }
 
+footer {
+  display: flex;
+  padding: 2rem 5%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+footer ul {
+  display: flex;
+  flex: 1 1 20rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h4 {
+  font-size: calc(1.4rem + 1vw);
+  font-family: "Merriweather", serif;
+}
+
 h1 {
   text-align: center;
   padding: 2rem;
@@ -166,6 +188,10 @@ nav ul li :hover {
 .skills li {
   padding: 2rem 0;
   font-size: 1.5rem;
+}
+
+.contact {
+  height: 40vh;
 }
 
 p {
