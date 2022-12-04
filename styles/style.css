@@ -188,6 +188,9 @@ p {
     transition: transform 0.5s ease;
     color: white;
   }
+  .nav-links li {
+    margin: 5rem;
+  }
   .nav-links a {
     color: white;
     font-size: 2rem;
@@ -195,6 +198,17 @@ p {
   }
   .nav-open {
     transform: translateX(-100%);
+  }
+  .toggle .line1 {
+    transform: rotateZ(45deg) translateY(300%);
+    background: white;
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotateZ(-45deg) translateY(-300%);
+    background: white;
   }
   .burger {
     position: relative;
